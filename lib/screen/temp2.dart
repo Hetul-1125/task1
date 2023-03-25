@@ -9,6 +9,8 @@ class Temp extends StatefulWidget {
 class _TempState extends State<Temp> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text("hello"),),
+    );
   }
 }

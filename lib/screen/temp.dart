@@ -12,3 +12,17 @@ class _TempState extends State<Temp> {
     return const Placeholder();
   }
 }
+
+class Temp1 extends StatefulWidget {
+  const Temp1({Key? key}) : super(key: key);
+
+  @override
+  State<Temp> createState() => _TempState();
+}
+
+class _Temp1State extends State<Temp> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
